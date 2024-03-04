@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="limpiar.css">
+    <link rel="stylesheet" href="encriptador.css">
+    <script src="funciones.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="imagenes/Logo.png">
+    </header>
+
+    <main>
+        <div class="texto-botones">
+        <textarea class="entrada" name="entrada" id="entrada" placeholder="Ingrese el texto aquí"></textarea>
+
+        <br>
+        <button onclick="encriptado(), textoImagen();" id="encriptador" class="encriptador" name="encriptar" type="button">Encriptar</button>
+        <button onclick="desencriptado();" class="desencriptar" name="desencriptar" type="button">Desencriptar</button>
+        </div>
+
+
+        <div class="texto-imagen">
+            <img id="muneco" class="muneco" src="imagenes/Muñeco.png">
+            <p id="negrita" class="negrita">Ningún mensaje fue encontrado</p>
+            <p  id="normal" class="normal">Ingresa el texto que desees encriptar o desencriptar. </p>
+            <p id="textoEncriptado" class="textoEncriptado">Aquí debe ir el texto</p>
+            <button onclick="copiar()" id="copiar" class="copiar" name="copiar" type="button">copiar</button>
+        </div>
+
+
+    </main>
+    
+</body>
+</html>

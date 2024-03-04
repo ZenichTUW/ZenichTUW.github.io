@@ -1,0 +1,103 @@
+body{
+width: 1440;
+height: 1024;
+background-color: #E5E5E5;
+}
+
+header{
+    padding: 10px;
+}
+
+.logo{
+    width: 120px;
+    height: 48px;
+    margin-left: 84px;
+    margin-top: 1%;
+}
+
+.texto-botones{
+    vertical-align: top;
+    display: inline-block;
+    width: 800px;
+    height: 926px;
+}
+
+.texto-botones button{
+    border-radius: 24px; 
+    width: 328px;
+    height: 67px;
+    margin-top: 642px;
+    margin-left: 20px;
+    background-color: #0A3871;
+    color:aliceblue
+    
+}
+
+
+.entrada{
+    margin-top: 3%;
+    margin-left: 240px;
+    border: 0;
+    background-color:  #E5E5E5 ;
+    width: 547px;
+    height: 48px;
+    color: #0A3871;
+    font-size: 32px;
+    resize: none;
+}
+
+.entrada::placeholder{
+    font-family: "Inter", sans-serif;
+    
+    }
+
+
+
+.texto-imagen{
+    display: inline-block;
+    margin: 50px;
+    margin-top: 40px;
+    width: 439px;
+    height: 944px;
+    background-color: white; 
+    border-radius: 10px; 
+    text-align: center;
+}
+
+
+
+.muneco{
+    margin-top: 120px;
+    
+}
+
+.negrita{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+
+.copiar {
+    border-radius: 24px;
+    border-color: #0A3871;
+    width: 328px;
+    height: 67px;
+    position: relative;
+    background-color: aliceblue;
+    color: #0A3871;
+    display: none;
+    margin-top: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textoEncriptado{
+    padding-top: 50px;
+    color: #0A3871;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    display: none;
+
+
+}
